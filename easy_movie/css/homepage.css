@@ -1,0 +1,347 @@
+body{
+    background-color: #464849;
+}
+
+.left-bar{
+    width: 230px;
+    height: 1000px;
+    float: left;
+}
+
+.watchlist{
+    width: 195px;
+    height:50px;
+    background-color: #f29d38;
+    margin: 33px auto;
+    line-height: 50px;
+    border-radius: 15px;
+    border: solid 2px;
+    border-color: #797979;
+    position: relative;
+}
+
+.watchlist .watchlistnum{
+    width: 25px;
+    height: 25px;
+    float: left;
+    font-size: 20px;
+    margin-top: 12.5px;
+    margin-left: 13px;
+    border-radius: 50%;
+    border: solid 2px #797979;
+    overflow: hidden;
+    line-height: 25px;
+    text-align: center;
+}
+
+.watchlist a{
+    display: block;
+    position: absolute;
+    width: 100%;
+    /* float: left; */
+    position: relative;
+    font-size: 20px;
+    color: #333;
+    left: 25px;
+}
+
+.hotmovies{
+    margin-left: 27px;
+    width: 196px;
+    height: 650px;
+    text-align: left;
+    vertical-align: bottom;
+    overflow: visible;
+}
+
+.hotmovies span{
+    display: block;
+    height:50px;
+    font-size: 25px;
+    font-style: italic;
+    color: #f29d38;
+    line-height: 40px;
+    position: relative;
+}
+
+.hotmovies li a{
+    font-size: 13px;
+    height: 50px;
+    display: block;
+    line-height: 60px;
+    color: #fff;
+}
+
+.hotmovies li a:hover{
+    color: red;
+}
+
+.hotmovies .line{
+    display: block;
+    background-color: #d7dde2;
+    width: 196px;
+    height: 2px;
+}
+
+.middle-bar{
+    width:650px;
+    height:1000px;
+    position: absolute;
+    left: 0; 
+    right: 0;
+    margin:32px auto;
+}
+
+.middle-bar .logo{
+    width: 243px;
+    margin: 0 auto;
+}
+
+.middle-bar img{
+    width: 243px;
+}
+
+.slogan{
+    width: 650px;
+    font-size: 40px;
+    color: #fff;
+    font-style: italic;
+    margin: 20px auto;
+    text-align: center;
+}
+
+.searchbar{
+    width: 600px;
+    height: 34px;
+    /* border: 1px solid rgb(224, 224, 224); */
+    margin: 0 auto;
+}
+
+.search{
+    position: relative;
+}
+
+.searchbar .search-input{
+    width: 585px;
+    height: 34px;
+    border-radius: 17px;
+    outline: none;
+    border: 3px solid #f29e39;
+    background: transparent;
+    position: absolute;
+    font-size: 20px;
+    padding-left: 15px;
+}
+
+.searchbar .search-button a{
+    float: left;
+    background: transparent;
+    position: absolute;
+    right: 5px;
+    top: 5px;
+    font-size: 30px;
+    color: #f29e39;
+}
+
+.nav-class{
+    width: 700px;
+    height: 80px;
+    margin: 34px auto;
+}
+
+.nav-class .nav-inner{
+    width: 545px;
+    height: 40px;
+    margin: 0 auto;
+    margin-bottom: 10px;
+}
+
+.nav-class .nav-inner .item{
+    display: inline-block;
+    background: transparent;
+    width: 100px;
+    height: 35px;
+    border: 3px solid #f29e39;
+    text-align: center;
+    line-height: 35px;
+    border-radius: 40px;
+}
+
+.nav-class .nav-inner>.item:not(last-child){
+    margin-right: 35px;
+}
+
+.nav-class .nav-inner>.item:last-child{
+    margin-right: 0px;
+}
+
+.nav-class .nav-inner .item a{
+    display: block;
+    color: #fff;
+}
+
+.middle-bar .write-reviews .review-slogan{
+    width: 400px;
+    height: 50px;
+    margin: 10px auto;
+    text-align: center;
+    line-height: 50px;
+    color: #f29e39;
+    font-size: 25px;
+}
+
+.middle-bar .write-reviews .movie-name-input,
+.middle-bar .write-reviews .review-title-input{
+    display: block;
+    background: transparent;
+    width: 470px;
+    height: 22px;
+    margin: 0 auto;
+    border: 3px solid #f29e39;
+    border-radius: 22px;
+    text-align: center;
+    line-height: 22px;
+    outline: none;
+}
+
+.middle-bar .write-reviews .review-content-input{
+    background: transparent;
+    display: block;
+    width: 470px;
+    height: 193px;
+    margin: 0 auto;
+    border: 3px solid #f29e39;
+    border-radius: 22px;
+    text-align: center;
+    line-height: 22px;
+    outline: none;
+}
+
+.middle-bar .write-reviews .content .submit-button{
+    background-color: #e7a14e;
+    width: 136px;
+    height: 41px;
+    border-radius: 22px;
+    text-align: center;
+    line-height: 41px;
+    float: left;
+    margin-left: 88px;
+    margin-top: -41px;
+}
+
+.middle-bar .write-reviews .content .clear-button{
+    background-color: #e7a14e;
+    width: 136px;
+    height: 41px;
+    border-radius: 22px;
+    text-align: center;
+    line-height: 41px;
+    float: right;
+    margin-right: 88px;
+    margin-top: -41px;
+}
+
+.middle-bar .write-reviews .content .submit-button a,
+.middle-bar .write-reviews .content .clear-button a{
+    display:block;
+    color: #fff;
+    font-size: 20px;
+}
+
+.right-bar{
+    width: 296px;
+    float: right;
+    margin-top: 33px;
+}
+
+.right-bar .personal{
+    width: 200px;
+    margin: 0 auto;
+}
+
+.right-bar .personal img{
+    width: 55px;
+    margin-left: 160px;
+}
+
+.right-bar .hot-reviews{
+    width: 280px;
+    height: 400px;
+    background: transparent;
+    margin-left: 20px;
+    margin-top: 40px;
+}
+
+.right-bar .hot-reviews .hot-reviews-title{
+    width: 150px;
+    margin-left: 0;
+    color: #f29e39;
+    font-size: 25px;
+    font-style: italic;
+}
+
+.review-link{
+    position: relative;
+    margin-top: 10px;
+    width: 270px;
+    height: 45px;
+    line-height: 15px;
+    background: transparent;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    color: #fff;
+}
+
+.hot-reviews .movie-name{
+    color: #fff;
+    float: right;
+    margin-right: 10px;
+}
+
+.hot-reviews .right-line{
+    width: 270px;
+    height: 3px;
+    background-color: #d8dde1;
+    float: right;
+    margin-right: 10px;
+}
+
+.reviews-for-theater-movies{
+    width: 280px;
+    background: transparent;
+    margin-left: 20px;
+    margin-top: 40px;
+}
+
+.right-bar .reviews-for-theater-movies .reviews-theater-title{
+    width: 270px;
+    margin-left: 0;
+    color: #f29e39;
+    font-size: 25px;
+    font-style: italic;
+}
+
+.movie-list{
+    width: 280px;
+}
+
+.movie-list .right-line{
+    width: 270px;
+    height: 3px;
+    background-color: #d8dde1;
+    margin-right: 10px;
+}
+
+.movie-list a{
+    margin-top: 20px;
+    margin-bottom: 10px;
+    display: block;
+    width: 200px;
+    height: 30px;
+    line-height: 40px;
+    padding-left: 50px;
+    color: #fff;
+}

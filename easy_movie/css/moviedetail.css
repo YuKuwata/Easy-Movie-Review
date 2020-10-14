@@ -1,0 +1,271 @@
+.top-wrapper{
+    height: 80px;
+    margin-top: 38px;
+}
+.top-wrapper a{
+    display: block;
+    float: left;
+    margin-left: 30px;
+}
+
+.top-wrapper a img{
+    width: 50px;
+}
+
+.top-wrapper .search-bar{
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.top-wrapper .search-input{
+    /* float: left;
+    margin-left: 30px; */
+    position: absolute;
+    width: 1041px;
+    height: 34px;
+    margin: 0 auto;
+    border-radius: 17px;
+    outline: none;
+    border: 3px solid #f29e39;
+    background: transparent;
+    font-size: 20px;
+    padding-left: 15px;
+}
+
+.search-button a{
+    position: absolute;
+    background: transparent;
+    font-size: 30px;
+    color: #f29e39;
+    margin-left: 1000px;
+    margin-top: 5px;
+}
+
+.movie-information{
+    width: 850px;
+    height: 100px;
+    /* background-color: #bfc; */
+    float: left;
+}
+
+.movie-information .movie-name{
+    width: 270px;
+    height: 38px;
+    /* background-color: #fff; */
+    border: 3px solid #f29e39;
+    border-radius: 38px;
+    text-align: center;
+    line-height: 38px;
+    margin-left: 20px;
+}
+
+.general-information{
+    width: 800px;
+    height: 100px;
+    /* background-color: #111; */
+    margin: 0 auto;
+    margin-top: 30px;
+}
+
+.general-information img{
+    float: left;
+    width: 224px;
+    border-radius: 15px;
+}
+
+.general-information-1{
+    float: left;
+    margin-left: 20px;
+}
+
+.general-information-1 .key-value{
+    width: 500px;
+    height: 60px;
+    /* background-color: #922; */
+}
+
+.general-information-1 > .key-value:first-child{
+    margin-top: 15px;
+        
+}
+
+.key-value .key{
+    float: left;
+    margin-left: 20px;
+    width: 90px;
+    height: 34px;
+    border: 3px solid #f29e39;
+    border-radius: 34px;
+    text-align: center;
+    line-height: 34px;
+}
+
+.key-value .value{
+    float: left;
+    margin-left: 10px;
+    width: 300px;
+    height: 34px;
+    border: 3px solid #f29e39;
+    border-radius: 34px;
+    text-align: center;
+    line-height: 34px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.introduction .title{
+    margin-top: 220px;
+    margin-left: 20px;
+    width: 122px;
+    height: 40px;
+    border: 3px solid #f29e39;
+    border-radius: 40px;
+    text-align: center;
+    line-height: 40px;
+}
+
+.introduction .content{
+    margin-top: 20px;
+    margin-left: 20px;
+    width: 750px;
+    text-align: left;
+    line-height: 15px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 4;
+    -webkit-box-orient: vertical;
+}
+
+.user-reviews .title{
+    margin-top: 20px;
+    margin-left: 20px;
+    width: 122px;
+    height: 40px;
+    border: 3px solid #f29e39;
+    border-radius: 40px;
+    text-align: center;
+    line-height: 40px;
+}
+
+.user-reviews .content{
+    margin-top: 20px;
+    margin-left: 20px;
+    width: 750px;
+    text-align: left;
+    line-height: 15px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 4;
+    -webkit-box-orient: vertical;
+}
+
+.movie-information .more{
+    float: right;
+    margin-top: 20px;
+    margin-right: 100px;
+}
+
+.movie-information .more:hover{
+    color: red;
+}
+
+.user-service{
+    float: right;
+    width: 540px;
+    height: 600px;
+    /* background-color: #aaa; */
+}
+
+.recommend .slogan{
+    position: absolute;
+    width: 224px;
+    height: 72px;
+    border: 3px solid #f29e39;
+    border-radius: 30px;
+    text-align: center;
+    line-height: 36px;
+    font-size: 20px;
+    color: black;
+}
+
+.good{
+    display: inline-block;
+    margin-top: 90px;
+    width: 60px;
+    height: 60px;
+    border: 3px solid #f29e39;
+    border-radius: 20px;
+    color: #f29e39;
+    font-size: 50px;
+    text-align:center;
+    line-height: 60px;
+
+}
+
+.bad{
+    display: inline-block;
+    margin-left: 20px;
+    margin-top: 90px;
+    width: 60px;
+    height: 60px;
+    border: 3px solid #f29e39;
+    border-radius: 20px;
+    color: #f29e39;
+    font-size: 50px;
+    text-align:center;
+    line-height: 60px;
+}
+
+.operation a{
+    display: block;
+    width: 230px;
+    height: 52px;
+    background-color: #f29c38;
+    border: 3px solid #797979;
+    border-radius: 20px;
+    text-align: center;
+    line-height: 52px;
+    color: #111;
+    font-size: 30px;
+    margin-top: 20px;
+}
+
+.write-review{
+    margin-top: 20px;
+    width: 500px;
+    height: 200px;
+    border: 2px solid #797979;;
+    /* position: sticky; */
+}
+
+.write-review .title-input{
+    display: block;
+    width: 492px;
+    height: 40px;
+    font-weight: bold;
+    font-size: 25px;
+    outline: none
+}
+
+.write-review .review-input{
+    display: block;
+    width: 492px;
+    height: 150px;
+    font-size: 15px;
+    outline: none;
+}
+
+.write-review .submit{
+    float: right;
+    width: 120px;
+    height: 50px;
+    background-color: #f29c38;
+    display: block;
+    border-radius: 10px;
+    text-align: center;
+    line-height: 50px;
+    color: #fff;
+}

@@ -1,0 +1,22 @@
+.clearfix::before,
+.clearfix::after{
+    content: '';
+    display: table;
+    clear: both;
+}
+body{
+    font:14px/1.5 Helvetica Neue,Helvetica,Arial,Microsoft Yahei,Hiragino Sans GB,Heiti SC,WenQuanYi Micro Hei,sans-serif;
+    color: #333;
+    min-width: 1420px;
+    /* 不让body过小导致容器溢出 */
+    position: relative;
+}
+
+a{
+    text-decoration: none;
+}
+
+.w{
+    width: 600px;
+    margin:0 auto;
+}
