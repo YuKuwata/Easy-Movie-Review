@@ -1,0 +1,118 @@
+.top-wrapper{
+    height: 80px;
+    margin-top: 38px;
+}
+.top-wrapper a{
+    display: block;
+    float: left;
+    margin-left: 30px;
+}
+
+.top-wrapper a img{
+    width: 50px;
+}
+
+.top-wrapper .search-bar{
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.top-wrapper .search-input{
+    /* float: left;
+    margin-left: 30px; */
+    position: absolute;
+    width: 1041px;
+    height: 34px;
+    margin: 0 auto;
+    border-radius: 17px;
+    outline: none;
+    border: 3px solid #f29e39;
+    background: transparent;
+    font-size: 20px;
+    padding-left: 15px;
+}
+
+.search-button a{
+    position: absolute;
+    background: transparent;
+    font-size: 30px;
+    color: #f29e39;
+    margin-left: 1000px;
+    margin-top: 5px;
+}
+
+div.movies{
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+div.inner-movies{
+    height: 250px;
+    display: flex;
+    margin-bottom: 10px;
+    justify-content: space-around;
+}
+
+div.movie-information{
+    width: 50%;
+    display: flex;
+}
+
+.link{
+    position: relative;
+}
+
+.link>img{
+    width: 150px;
+}
+
+.link>div{
+    position: absolute;
+    margin-left: 88%;
+    margin-top: -135%;
+    color: #f29e39;
+    font-size: 20px;
+    
+}
+
+.link>.buy{
+    display: block;
+    width: 100px;
+    height: 40px;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 40px;
+    text-align: center;
+    background-color: #f29d38;
+    border-radius: 15px;
+}
+
+.review>.title{
+    margin-left: 20px;
+    width: 150px;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    border: 3px solid #f29e39;
+    border-radius: 25px;
+    font-size: 18px;
+}
+
+.review>.content{
+    border: 3px solid #f29e39;
+    border-radius: 10px;
+    width: 90%;
+    height: 106px;
+    margin-top: 20px;
+    margin-left: 20px;
+    padding: 1px;
+    text-align: left;
+    line-height: 15px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 7;
+    -webkit-box-orient: vertical;
+}
