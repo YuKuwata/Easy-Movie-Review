@@ -133,7 +133,7 @@ body{
     padding-left: 15px;
 }
 
-.searchbar .search-button a{
+.searchbar .search-button{
     float: left;
     background: transparent;
     position: absolute;
